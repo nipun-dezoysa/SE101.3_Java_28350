@@ -1,21 +1,13 @@
 public class YellowLightThread extends Thread{
     @Override
     public void run() {
-
-        while (true){
-
-            System.out.println("Yellow Light");
-            try{
+        try{
+            while (true) {
+                System.out.println("Yellow Light");
                 Thread.sleep(2000);
-            }catch (InterruptedException e){
-                System.out.println(e);
             }
-
+        }catch (InterruptedException e){
+            System.out.println(e);
         }
-//        while (true){
-//            System.out.println("Yellow Light");
-//        }
-
-
     }
 }

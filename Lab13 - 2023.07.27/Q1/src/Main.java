@@ -10,7 +10,7 @@ public class Main {
         gr.start();
 
         ye.start();
-        
+
 
     }
 }
